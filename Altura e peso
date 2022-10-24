@@ -1,0 +1,23 @@
+<script>
+
+var nome, sexo, altura, pesoM, pesoF;
+
+nome = prompt("Digite seu nome")
+sexo = prompt("Informe seu genero(M/F)")
+altura = Number(prompt("Digite sua altura:"))
+pesoM = 22*Math.pow(altura,2)
+pesoF = 21*Math.pow(altura,2)
+
+if (sexo=="M"){
+
+	alert("Nome: " + nome + "\nPeso: " + pesoM.toFixed(2)+"Kg")
+
+}else {
+
+	alert("Nome: " + nome + "\nPeso: " + pesoF.toFixed(2)+"Kg")
+
+}
+
+
+
+</script>
