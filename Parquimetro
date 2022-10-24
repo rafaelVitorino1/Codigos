@@ -1,0 +1,36 @@
+<script>
+
+var valor;
+
+valor = Number(prompt("Insira um valor: \nR$ 3,00: 120 min \nR$ 1,75: 60 min \nR$ 1,00: 30 min"));
+
+
+if(valor>=3){
+
+	var troco;
+	troco = valor-3
+
+	alert("Tempo de permanencia 120 min \nSeu troco é de: " + 			troco.toFixed(2))
+
+}else if(valor>=1.75){
+
+	var troco;
+	troco = valor-1.75
+
+	alert("Tempo de permanencia 60 min \nSeu troco é de: " + 			troco.toFixed(2))
+
+}else if(valor>=1){
+
+	var troco;
+	troco = valor-1
+
+	alert("Tempo de permanencia 30 min \nSeu troco é de: " + 			troco.toFixed(2))
+
+}else{
+
+	alert("Valor Insuficiente!!")
+
+}
+
+
+</script>
