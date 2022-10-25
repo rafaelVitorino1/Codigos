@@ -1,0 +1,28 @@
+<script>
+
+var sexo, sal;
+
+sexo = prompt("Informe o genero da pessoa(M/F):")
+sal = Number(prompt("Digite o salario bruto R$"))
+
+
+
+
+if(sexo=="M"){
+
+	var salM;
+    salM = sal - (sal*0.05)
+    
+    alert("O salario liquido é de R$" + salM.toFixed(2))
+
+}else{
+
+	var salF;
+    salF = sal - (sal*0.03)
+    
+    alert("O salario liquido é de R$" + salF.toFixed(2))
+
+}
+
+
+</script>
