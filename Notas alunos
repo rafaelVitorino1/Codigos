@@ -1,0 +1,25 @@
+<script>
+
+var nota1, nota2, nota3, media;
+
+nota1 = Number(prompt("Digite a primeira nota do aluno"));
+nota2 = Number(prompt("Digite a segunda nota do aluno"));
+nota3 = Number(prompt("Digite a terceira nota do aluno"));
+media = (nota1+nota2+nota3)/3
+
+
+if(media>=7){
+
+    alert("APROVADO");
+
+}else if(media>=6){
+
+    alert("RECUPERÇÃO");
+
+}else{
+
+    alert("REPROVADO");
+
+}
+
+</script>
