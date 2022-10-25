@@ -13,14 +13,14 @@ if(sexo=="M"){
 	var salM;
     salM = sal - (sal*0.05)
     
-    alert("O salario liquido é de R$" + salM.toFixed(2))
+    alert("O salario liquido é de R$" + salM.toFixed(2) + "\nDesconto de 5%")
 
 }else{
 
 	var salF;
     salF = sal - (sal*0.03)
     
-    alert("O salario liquido é de R$" + salF.toFixed(2))
+    alert("O salario liquido é de R$" + salF.toFixed(2) + "\nDesconto de 3%")
 
 }
 
