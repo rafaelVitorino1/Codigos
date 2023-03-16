@@ -1,0 +1,20 @@
+<?php
+
+    $num=0;
+
+    if($num>=1 && $num<=3){
+
+        echo"Primeiro trimestre";
+    }elseif($num<=6 && $num>=4){
+
+        echo"Segundo trimestre";
+    }elseif($num<=9 && $num>=7){
+
+        echo"Terceiro trimestre";
+    }elseif($num<=12 && $num>=10){
+
+        echo"Quarto trimestre";
+    }else{
+
+        echo"MÊS INVALIDO";
+    }
