@@ -1,0 +1,13 @@
+<?php
+
+    $nome=;
+    $idade=;
+    $sexo=;
+
+    if($sexo=="F" && $idade<25){
+
+        echo"$nome VOCÊ FOI ACEITA";
+    }else{
+
+        echo"$nome, TENTE NOVAMENTE";
+    }
